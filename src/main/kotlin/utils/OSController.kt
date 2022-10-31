@@ -2,7 +2,7 @@ package utils
 
 object OSController {
 
-    fun init(): Boolean{
+    fun init(): Boolean {
         var controller = false
         val os = System.getProperty("os.name").lowercase()
 
